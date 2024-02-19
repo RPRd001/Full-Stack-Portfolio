@@ -127,6 +127,7 @@ nav > ul > li > a:hover {
 }
 
 .project-card {
+    text-decoration: none;
     color: white;
     display: flex;
     flex-direction: row;
@@ -138,8 +139,19 @@ nav > ul > li > a:hover {
     color: black;
 }
 
-.project-image {
-    background-color: #343a40;
+.project-image-1 {
+    background-image: url('../img/keyboard-landing-page.png');
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 400px;
+}
+
+.project-image-2 {
+    background-image: url('../img/calculator-page.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 250px;
     width: 400px;
 }
